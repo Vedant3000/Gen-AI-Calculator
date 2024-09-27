@@ -20,6 +20,7 @@ https://drive.google.com/file/d/16nDcillfXymb2kcEWFwUGMpaIDHR0KXE/view?usp=shari
   Follow the steps below to set up and run the Gen-AI Calculator on your local machine:
 
 1. Clone the Repository
+   
 2. Install Dependencies
    - Frontend (Node.js):
 ```
@@ -31,15 +32,19 @@ pip install -r requirements.txt
 ```
 3. Set Up Google Gemini Pro API
     Ensure you have access to the Google Gemini Pro API. Generate a new Gemini API Key from Google AI Studio and paste it inside the .env file in the frontend folder of the project.
+   
 4. Run the Application
    - Start the server (Backend):
+     
      ```
      cd ai_calc_backend
      python main.py
      ```
    - Run the frontend:
+  
+     Open a new terminal in the root directory of the project.
+     
      ```
-     cd ..
      cd ai_calc_frontend
      npm run dev
      ```
