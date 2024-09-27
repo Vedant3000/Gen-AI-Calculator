@@ -4,6 +4,13 @@ Welcome to the Gen-AI Calculator! 🚀 This innovative AI-powered web applicatio
 
 Built using a Node.js frontend, Python backend, and powered by Google Gemini Pro API, this web app brings a fun, interactive, and intelligent problem-solving experience to your fingertips. ✏️
 
+## Video Demonstration
+  Here is the link for the video demonstration and real-time working of the generative-ai calculator.
+
+  
+https://drive.google.com/file/d/16nDcillfXymb2kcEWFwUGMpaIDHR0KXE/view?usp=sharing
+
+
 ## 🔑 Key Features
 - Scribble & Solve ✍️: Handwrite any mathematical equation or expression, and the AI will solve it for you in real-time.
 - Image Recognition 🎨: Draw an image, and the model will interpret and describe it.
@@ -32,6 +39,8 @@ pip install -r requirements.txt
      ```
    - Run the frontend:
      ```
+     cd ..
+     cd ai_calc_frontend
      npm run dev
      ```
 ## 🎨 Tech Stack
@@ -57,3 +66,19 @@ pip install -r requirements.txt
 - Backend: The Python backend processes the inputs using the Google Gemini Pro API to interpret the scribbles and return either a math solution or an image description.
 - Result Display: Math expressions are rendered beautifully using MathJax and LaTeX for easy readability.
 ## 📸 Screenshots
+
+![image_1](img1.png)
+
+![image_2](img2.png)
+
+![image_3](img3.png)
+
+![image_4](img4.png)
+
+![image_5](img5.png)
+
+![image_6](img6.png)
+
+![image_7](img7.png)
+
+
