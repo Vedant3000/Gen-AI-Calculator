@@ -1,0 +1,255 @@
+body {
+    background: #F9FAFB;
+    font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+nav {
+    background: #fff;
+    box-shadow: 0 1px 5px #eeeeee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.7em 2em;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.nav-links a, .get-started {
+    text-decoration: none;
+    color: #333;
+    margin: 0 1em;
+    font-weight: 500;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.get-started {
+    background: #7758D1;
+    color: #fff;
+    padding: 0.5em 1.3em;
+    border-radius: 2em;
+    font-weight: bold;
+    transition: background 0.2s;
+}
+.get-started:hover, .primary-btn:hover {
+    background: #5836a7;
+}
+.hero {
+    text-align: center;
+    padding: 3em 1em 2em 1em;
+    background: linear-gradient(90deg, #F3ECFF 0%, #E7F6F7 100%);
+}
+.hero-img {
+    width: 90px;
+    margin-bottom: 1em;
+}
+.highlight {
+    color: #7758D1;
+}
+.main, .features, .cta {
+    max-width: 900px;
+    margin: 3em auto;
+}
+.features h2, .cta h2 {
+    text-align: center;
+}
+.feature-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    justify-content: center;
+    margin-top: 2em;
+}
+.feature {
+    background: #fff;
+    padding: 2em;
+    border-radius: 16px;
+    box-shadow: 0 2px 8px #eef1f8;
+    width: 250px;
+    text-align: center;
+}
+.icon {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+.cta {
+    background: #f5f3fe;
+    border-radius: 14px;
+    text-align: center;
+    padding: 1.7em 1em;
+}
+.primary-btn, .secondary-btn {
+    display: inline-block;
+    border-radius: 2em;
+    padding: 0.6em 1.7em;
+    margin: 0.5em;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+    text-decoration: none;
+}
+.primary-btn {
+    background: #7758D1;
+    color: #fff;
+}
+.secondary-btn {
+    background: #fff;
+    color: #7758D1;
+    border: 1px solid #7758D1;
+}
+
+.inspiration {
+    max-width: 900px;
+    margin: 2em auto;
+    background: #fff;
+    padding: 2em 1em;
+    border-radius: 14px;
+}
+.quotes-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    justify-content: space-between;
+}
+.quote {
+    width: 45%;
+    background: #F9FAFB;
+    border-radius: 12px;
+    padding: 1em;
+    margin-bottom: 1.5em;
+    text-align: left;
+    box-shadow: 0 0px 4px #f5f6fa;
+}
+.quote-icon {
+    font-size: 2em;
+    text-align: left;
+    margin-bottom: 0.5em;
+}
+blockquote {
+    font-style: italic;
+    margin: 0;
+}
+blockquote span {
+    display: block;
+    margin-top: 0.5em;
+    font-size: 0.9em;
+    color: #494d55;
+}
+.daily-quote-box {
+    background: #F3ECFF;
+    font-size: 1.1em;
+    padding: 1.3em;
+    border-radius: 12px;
+    margin: 0.5em auto 1.5em auto;
+    width: 80%;
+    color: #4a4f6e;
+    box-shadow: 0 0px 4px #ecefff;
+}
+
+.mood-tracker {
+    background: #fff;
+    padding: 2em 1em;
+    border-radius: 14px;
+    max-width: 700px;
+    margin: 2em auto;
+    text-align: center;
+}
+.mood-select {
+    margin: 2em 0 0 0;
+}
+.moods {
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+.mood-btn {
+    background: #E7F6F7;
+    border: none;
+    border-radius: 2em;
+    padding: 0.7em 1.5em;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background 0.2s;
+}
+.mood-btn.selected {
+    background: #7758D1;
+    color: #fff;
+}
+.mood-select input {
+    padding: 0.5em 1em;
+    border-radius: 2em;
+    border: 1px solid #ddd;
+    margin: 0.7em 0;
+    width: 60%;
+    font-size: 1em;
+}
+
+.chat-section {
+    max-width: 650px;
+    background: #fff;
+    margin: 3em auto;
+    padding: 2.5em 1em;
+    border-radius: 16px;
+    box-shadow: 0 2px 8px #eee;
+}
+.chat-window {
+    min-height: 280px;
+    background: #F6F4FC;
+    border-radius: 12px;
+    margin: 1em 0;
+    padding: 1em;
+    overflow-y: auto;
+    max-height: 340px;
+}
+.message {
+    margin: 0.7em 0;
+}
+.message.luna {
+    color: #7758D1;
+}
+.message.user {
+    text-align: right;
+    color: #333;
+}
+.chat-input {
+    display: flex;
+    gap: 1em;
+}
+.chat-input input {
+    flex: 1;
+    border-radius: 2em;
+    border: 1px solid #e5e5e5;
+    padding: 0.6em 1em;
+}
+.chat-input button {
+    background: #7758D1;
+    color: #fff;
+    border: none;
+    border-radius: 2em;
+    padding: 0.6em 1.5em;
+    font-size: 1em;
+    cursor: pointer;
+}
+@media (max-width: 800px) {
+    .features, .main, .cta, .inspiration, .mood-tracker, .chat-section {
+        width: 95%;
+        padding: 2%;
+    }
+    .feature-list, .quotes-list {
+        flex-direction: column;
+        gap: 0.6em;
+    }
+    .quote {
+        width: 99%;
+    }
+}
